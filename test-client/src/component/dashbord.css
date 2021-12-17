@@ -1,0 +1,46 @@
+.dashboard {
+    padding: 20px 20px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 30px;
+}
+
+.dashboard:hover {
+    background-color: #fcfcfc;
+}
+
+.main {
+    width: 300px;
+    background-color: #7a7e7e;
+    border-radius: 20px;
+    padding-top: 6px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    transition: all 0.2s linear;
+}
+.main a {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.domain {
+    width: 0;
+    overflow: hidden;
+    transition: all 0.5s linear;
+}
+
+.settingOpen {
+    margin-left: 260px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+
+}
+
+.settingClose {
+    width: 0;
+    overflow: hidden;
+    transition: all 0.5s linear;
+
+}
